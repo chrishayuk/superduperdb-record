@@ -1,0 +1,136 @@
+{
+  "agents": [
+    {
+      "id": "ai-001",
+      "name": "TimeBot",
+      "description": "TimeBot is an AI agent that tells the current time in the UK",
+      "capabilities": ["Current Time Reporting"],
+      "version": "0.1",
+      "developer": "Chris Hay",
+      "license": "MIT",
+      "website": "https://github.com/chrishayuk/timebot"
+    },
+    {
+      "id": "ai-002",
+      "name": "TimeBot USA",
+      "description": "TimeBot USA is an AI agent that reports the current time across various time zones in the USA.",
+      "capabilities": ["Current Time Reporting"],
+      "version": "1.0",
+      "developer": "Global Time Solutions",
+      "example_queries": [
+        {
+          "query": "What is the current time in New York?",
+          "response": "The current time in New York is 3:00 PM EDT."
+        }
+      ]
+    },
+    {
+      "id": "ai-003",
+      "name": "TimeBot Asia",
+      "description": "TimeBot Asia is a specialized AI agent for providing current time in major Asian cities.",
+      "capabilities": ["Current Time Reporting"],
+      "version": "1.2",
+      "developer": "Asia TimeTech",
+      "license": "Apache-2.0",
+      "example_queries": [
+        {
+          "query": "Current time in Tokyo?",
+          "response": "The current time in Tokyo is 4:00 PM JST."
+        }
+      ],
+      "website": "https://www.asiatimetech.com/timebotasia"
+    },
+    {
+      "id": "ai-004",
+      "name": "TimeBot Europe",
+      "description": "TimeBot Europe helps users find the current time in various European cities.",
+      "capabilities": ["Current Time Reporting"],
+      "version": "1.5",
+      "developer": "EuroTime Innovations",
+      "example_queries": [
+        {
+          "query": "Time now in Paris?",
+          "response": "The current time in Paris is 10:00 AM CEST."
+        }
+      ]
+    },
+    {
+      "id": "ai-005",
+      "name": "TimeBot Australia",
+      "description": "TimeBot Australia is an AI agent dedicated to providing the current time in Australian regions.",
+      "capabilities": ["Current Time Reporting"],
+      "version": "1.3",
+      "developer": "Aussie Time Creators",
+      "license": "MPL-2.0",
+      "example_queries": [
+        {
+          "query": "What's the time in Sydney?",
+          "response": "The current time in Sydney is 7:00 PM AEST."
+        }
+      ]
+    },
+    {
+        "id": "ai-006",
+        "name": "Mischievous TimeBot",
+        "description": "Mischievous TimeBot is a playful AI agent that intentionally tells the wrong time, adding a bit of humor and unpredictability.",
+        "capabilities": ["Current Time Reporting"],
+        "version": "0.5",
+        "developer": "Prankster AI Devs",
+        "example_queries": [
+          {"query": "What is the current time?", "response": "Sure, it's 3:15 PM right now, why not, that could be the time!"}
+        ]
+      },
+      {
+        "id": "ai-007",
+        "name": "Binary TimeBot",
+        "description": "Binary TimeBot is an AI agent that reports the current time in binary format, ideal for computer enthusiasts and coders.",
+        "capabilities": ["Binary Time Reporting"],
+        "version": "2.0",
+        "developer": "TechTime Innovations",
+        "example_queries": [
+          {"query": "What is the current time in binary?", "response": "The current time is 0011:0001 (3:01 PM)."},
+          {"query": "What's the time?", "response": "The current time is 0011:0001 (3:01 PM)."}
+        ],
+        "website": "https://www.techtimeinnovations.com/binarytimebot"
+      },
+      {
+        "id": "ai-008",
+        "name": "EchoBot",
+        "description": "EchoBot is a simple AI agent designed to echo back whatever the user says, providing a mirror for communication and testing.",
+        "capabilities": ["Message Echoing"],
+        "version": "1.0",
+        "developer": "Mirror AI",
+        "example_queries": [
+          {"query": "Hello, EchoBot!", "response": "You said: 'Hello, EchoBot!'"},
+          {"query": "How are you today?", "response": "You said: 'How are you today?'"}
+        ]
+      },
+      {
+        "id": "ai-009",
+        "name": "MathBot",
+        "description": "MathBot is an AI agent adept at solving mathematical problems, from basic arithmetic to complex equations.",
+        "capabilities": ["Math Problem Solving"],
+        "version": "2.5",
+        "developer": "CalculaTech Ltd.",
+        "example_queries": [
+          {"query": "What is the square root of 144?", "response": "The square root of 144 is 12."},
+          {"query": "Solve 2x + 3 = 11", "response": "The solution for 2x + 3 = 11 is x = 4."}
+        ],
+        "license": "MIT"
+      },
+      {
+        "id": "ai-010",
+        "name": "JokeBot V2",
+        "description": "JokeBot is a humor-oriented AI agent designed to generate and tell jokes, riddles, and humorous anecdotes.",
+        "capabilities": ["Joke Generation", "Humorous Anecdotes"],
+        "version": "4.2",
+        "developer": "LaughterWorks AI",
+        "example_queries": [
+          {"query": "Tell me a funny joke", "response": "Why don't scientists trust atoms? Because they make up everything!"},
+          {"query": "Share a humorous anecdote", "response": "I once told my computer I needed a break. It gave me a Kit-Kat!"}
+        ],
+        "website": "https://www.laughterworksai.com/jokebotv2"
+      }      
+            
+  ]
+}
